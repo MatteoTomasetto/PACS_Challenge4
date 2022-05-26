@@ -20,7 +20,7 @@ By default: dim = 10, tol=1e-1, maxiter=100000, threads=2.
 
 Notice that you can set the number of MPI processors to use thank to the '-n' entry of mpirun.
 
-The result is saved in a file called 'output_data.dat'.
+The result is saved in a file called `output_data.dat`.
 In addition, in this folder you can find a table to investigate the parallel computing speedup and a plot of the solution when dim=100, threads=1, maxiter=100000 and tol=1e-1. 
 
 Notice that the advantages of parallelization are considerable as the dimension of the problem increases; instead the serial version is faster for small dimensions due to parallel overhead.
