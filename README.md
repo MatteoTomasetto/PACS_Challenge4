@@ -9,10 +9,10 @@ In particular the following boundary conditions are considered:
 - u = 1 on the left side of the domain.
 
 The following parameters are taken in input from command line thanks to GetPot:
-	- dim = number of grid points considered for each side of the domain;
-	- tol = tolerance for the Jacobi iteration method;
-	- maxiter = maximum number of iterations for the Jacobi iteration method;
-	- threads = number of OpenMP threads to use
+- dim = number of grid points considered for each side of the domain;
+- tol = tolerance for the Jacobi iteration method;
+- maxiter = maximum number of iterations for the Jacobi iteration method;
+- threads = number of OpenMP threads to use
 
 Example of execution: `mpirun -n 4 ./main "dim"=100 "tol"=1e-1 "maxiter"=100 "threads"=4`
 By default: dim = 10, tol=1e-1, maxiter=100000, threads=2.
