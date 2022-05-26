@@ -1,12 +1,12 @@
 # Jacobi iteration method for the Laplace Equation #
 
-This program computes the solution of the Laplace Equation with null forcing term in a squared domain (0,1)X(0,1) via Jacobi iteration method exploiting parallel computing techniques (MPI and OpenMP).
+This program computes the solution of the Laplace Equation with null forcing term in a squared domain (0,1)x(0,1) via Jacobi iteration method exploiting parallel computing techniques (MPI and OpenMP).
 
 In particular the following boundary conditions are considered:
-	- u = 10 on the top of the domain;
-	- u = 1 on the bottom of the domain;
-	- u = 1 on the right side of the domain;
-	- u = 1 on the left side of the domain.
+- u = 10 on the top of the domain;
+- u = 1 on the bottom of the domain;
+- u = 1 on the right side of the domain;
+- u = 1 on the left side of the domain.
 
 The following parameters are taken in input from command line thanks to GetPot:
 	- dim = number of grid points considered for each side of the domain;
